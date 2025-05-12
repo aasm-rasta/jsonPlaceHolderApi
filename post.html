@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Estudos API's</title>
+</head>
+
+<body>
+    <p id="loading">Carregando</p>
+    <div id="post" class="hide">
+        <a href="index.html">Voltar</a>
+        <div id="post-container"></div>
+        <h2>Comentarios:</h2>
+        <form id="comment-form">
+            <div>
+                <label for="email">Seu Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
+            </div>
+            <div>
+                <label for="body">Seu Comentario:</label>
+                <textarea name="body" id="body" placeholder="Digite o seu Comentario" required></textarea>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div id="comments-container"></div>
+    </div>
+</body>
+
+</html>
